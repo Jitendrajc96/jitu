@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <title> Swpping two numbers </title>
+</head>
+ <script  type="text/javascript">
+
+    var a = parseInt (prompt(`Enter value of a :`));
+
+    var b = parseInt (prompt(`Enter value of b :`));
+
+console.log(`Value of a is ${a} , Value of b is ${b}`);
+
+/*BY USING THIRD VARIABLE that is "temp" here*/
+//  var temp;
+
+// temp = a;
+
+//   a = b;
+
+// b = temp;
+
+/* WITHOUT USING THIRD VARIABLE*/
+
+a = a + b;
+b = a - b;
+a = a - b;
+
+console.log(`After swapping \n Value of a is ${a} , Value of b is ${b}`);
+
+</script>
+
+</html>
